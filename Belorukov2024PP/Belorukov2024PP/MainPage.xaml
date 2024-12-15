@@ -5,8 +5,23 @@
              Background="#dcf3fc">
 
     <StackLayout>
-        
 
+        <Label Text="Авторизация" HorizontalOptions="Center" TextColor="Black" FontSize="28" Margin="40"/>
+        <Entry x:Name="Login" Placeholder="Введите логин" TextColor="Black" PlaceholderColor="black" Margin=" 20"/>
+        <Entry x:Name="Password" Placeholder="Введите пароль" TextColor="Black" PlaceholderColor="Black" Margin="20"/>
+
+        <Button Margin="20" CornerRadius="15" BackgroundColor="#19baff"
+                Text="Авторизоваться" TextColor="Black"
+                x:Name="Avtor">
+        </Button>
+        <Button Margin="20" CornerRadius="15" BackgroundColor="#19baff"
+                Text="Зарегистрироваться" TextColor="Black"
+                x:Name="Reg" />
+
+        <Button Margin="20" CornerRadius="15" BackgroundColor="#19baff"
+                Text="Выйти из приложения" TextColor="Black"
+                x:Name="Exit" Clicked="Exit_Clicked"/>
+        
     </StackLayout>
 
 </ContentPage>

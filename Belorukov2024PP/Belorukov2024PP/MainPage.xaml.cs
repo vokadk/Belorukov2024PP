@@ -17,7 +17,7 @@ namespace Belorukov2024PP
 
         private void Exit_Clicked(object sender, EventArgs e)
         {
-
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
         }
     }
 }
