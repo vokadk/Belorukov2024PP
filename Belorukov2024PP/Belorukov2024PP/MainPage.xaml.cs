@@ -19,5 +19,19 @@ namespace Belorukov2024PP
         {
             System.Diagnostics.Process.GetCurrentProcess().Kill();
         }
+        private async void Avtor_Clicked(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(Login.Text))
+            {
+                await DisplayAlert("Ошибка", "Логин не может быть пустым", "OK");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(Password.Text))
+            {
+                await DisplayAlert("Ошибка", "Пароль не может быть пустым", "OK");
+                return;
+            }
+        }
     }
 }
