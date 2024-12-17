@@ -12,6 +12,7 @@ namespace Belorukov2024PP
     {
         public MainPage()
         {
+            NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent();
         }
 
@@ -33,5 +34,9 @@ namespace Belorukov2024PP
                 return;
             }
         }
+         private async void Reg_Clicked(object sender, EventArgs e)
+         {
+            await Navigation.PushAsync(new Registracia());
+         }
     }
 }

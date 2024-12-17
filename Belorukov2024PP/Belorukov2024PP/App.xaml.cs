@@ -9,8 +9,8 @@ namespace Belorukov2024PP
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            MainPage=new NavigationPage(new MainPage());
+            //MainPage = new MainPage();
         }
 
         protected override void OnStart()
