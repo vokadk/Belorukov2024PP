@@ -33,6 +33,7 @@ namespace Belorukov2024PP
                 await DisplayAlert("Ошибка", "Пароль не может быть пустым", "OK");
                 return;
             }
+            await Navigation.PushAsync(new PolzovatelFarma());
         }
          private async void Reg_Clicked(object sender, EventArgs e)
          {
