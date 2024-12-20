@@ -5,9 +5,13 @@
     <ContentPage.Content>
         <ScrollView>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                <ListView>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
         </StackLayout>
             </ScrollView>
     </ContentPage.Content>
