@@ -4,15 +4,18 @@
              x:Class="Belorukov2024PP.PolzovatelFarma">
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout>
-                <ListView>
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-        </StackLayout>
-            </ScrollView>
+
+            <StackLayout>
+
+                <Button Margin="20" CornerRadius="15" BackgroundColor="#19baff"
+            Text="Каталог" TextColor="Black"/>
+                <Button Margin="20" CornerRadius="15" BackgroundColor="#19baff"
+            Text="Мои книги" TextColor="Black"/>
+                <Button Margin="20" CornerRadius="15" BackgroundColor="#19baff"
+            Text="Назад" TextColor="Black"
+            x:Name="Back"/>
+            </StackLayout>
+
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
