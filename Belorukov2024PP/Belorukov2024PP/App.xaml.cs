@@ -10,17 +10,13 @@ namespace Belorukov2024PP
         {
             InitializeComponent();
             MainPage=new NavigationPage(new MainPage());
-            //MainPage = new MainPage();
         }
-
         protected override void OnStart()
         {
         }
-
         protected override void OnSleep()
         {
         }
-
         protected override void OnResume()
         {
         }

@@ -15,7 +15,6 @@ namespace Belorukov2024PP
             NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent();
         }
-
         private void Exit_Clicked(object sender, EventArgs e)
         {
             System.Diagnostics.Process.GetCurrentProcess().Kill();

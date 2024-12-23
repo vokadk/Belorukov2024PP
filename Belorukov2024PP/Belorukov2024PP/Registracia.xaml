@@ -5,12 +5,10 @@
              Background="#dcf3fc">
     <ContentPage.Content>
         <ScrollView>
-
             <StackLayout>
                 <Frame BackgroundColor="#19baff" Padding="24" CornerRadius="0">
                     <Label Text="Регистрация" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
                 </Frame>
-
                 <Entry x:Name="Name" Placeholder="Введите имя" TextColor="Black" PlaceholderColor="black" Margin=" 25"/>
                 <Entry x:Name="Login" Placeholder="Введите логин" TextColor="Black" PlaceholderColor="black" Margin=" 25"/>
                 <Entry x:Name="Password" Placeholder="Введите пароль" TextColor="Black" PlaceholderColor="Black" Margin="25"/>
