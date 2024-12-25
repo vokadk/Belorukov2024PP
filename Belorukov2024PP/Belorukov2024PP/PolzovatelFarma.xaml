@@ -12,6 +12,9 @@
                 <Button Margin="20" CornerRadius="15" BackgroundColor="#19baff"
             Text="Назад" TextColor="Black"
             x:Name="Back"/>
+                <Button Margin="20" CornerRadius="15" BackgroundColor="#19baff"
+Text="Вернуться назад" TextColor="Black"
+x:Name="Read" Clicked="Read_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

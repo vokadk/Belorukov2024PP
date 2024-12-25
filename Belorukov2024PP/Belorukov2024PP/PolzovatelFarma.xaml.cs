@@ -21,5 +21,10 @@ namespace Belorukov2024PP
         {
             await Navigation.PushAsync(new MainPage());
         }
+
+        private async void Read_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ReadBook());
+        }
     }
 }
